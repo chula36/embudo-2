@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Description (change below content value in below line as per your site description) -->
+    <meta name="description" content="Design Agency - Funnels HTML">
+    <!-- Site Keywords (change below content value in below line as per your site keyword ) -->
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, Funnels HTML, HTML Funnels, Funnels Template, HTML Funnels Template, Funnels  HTML Template">
+    <!-- Company Name(change below content value in below line as per your Company Name) -->
+    <meta name="author" content="OG Web Solutions">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Page Title -->
+    <title>Gift - CxPROexe</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Product Display Section Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link type="text/css" href="../common/css/style.css" rel="stylesheet">
+    <style>
+        .stars {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #FFD700; /* Color dorado para las estrellas */
+}
+
+.stars img {
+    width: 18px;
+    margin-right: 4px;
+}
+/* Ajuste de tamaño y estilo para los logos */
+.brand-logo {
+    max-width: 100%;
+    height: auto;
+    width: 120px; /* Tamaño base del logo */
+}
+
+.review-logos .col-6 .brand-logo {
+    width: 100px; /* Ajuste de tamaño en dispositivos móviles */
+}
+
+@media (max-width: 576px) {
+    .brand-logo {
+        width: 90px; /* Tamaño más grande en móvil */
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="home-header sticky">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand header_logo" href="index.html">
+                        <!-- Header Logo -->
+                        <img class="light-logo" src="assets/images/CxPRO.png" alt="Design Agency" loading="lazy">
+                    </a>
+                   
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Main -->
+    <main>
+        <!--// Hero Section \\-->
+        <section class="hero-section" id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 mx-auto">
+                        <div class="inner-container text-center">
+                            <div class="top-content">
+                                <!-- Encabezado -->
+                                <h3 class="font-weight-semibold text-yellow">¡EL TIEMPO SE ACABA PARA OBTENER ESTA OFERTA ESPECIAL!</h3>
+                                <h1 class="text-white font-weight-bold"><span class="color">¡RÁPIDO!</span> TU <span class="under">DESCUENTO DE 100%</span> TERMINA EN <span class="color">72 HORAS...</span></h1>
+                                <div class="row">
+                                    <div class="col-12 col-md-12 mx-auto">
+                                        <!-- Temporizador de cuenta regresiva -->
+                                        <div id="counter" class="timer d-flex justify-content-center circle-parent bg-dark">
+                                            <div class="circle">
+                                                <span class="circle_inner text-white mb-1 mb-lg-3 d-flex justify-content-center align-items-center days" id="days">00</span>
+                                                <div class="smalltext text-white">Días</div>
+                                            </div>
+                                            <div class="circle">
+                                                <span class="circle_inner text-white mb-1 mb-lg-3 d-flex justify-content-center align-items-center hours" id="hours">00</span>
+                                                <div class="circle_text text-white smalltext">Horas</div>
+                                            </div>
+                                            <div class="circle">
+                                                <span class="circle_inner text-white mb-1 mb-lg-3 d-flex justify-content-center align-items-center minutes" id="minutes">00</span>
+                                                <div class="circle_text text-white smalltext">Minutos</div>
+                                            </div>
+                                            <div class="circle">
+                                                <span class="circle_inner text-white mb-1 mb-lg-3 d-flex justify-content-center align-items-center seconds" id="seconds">00</span>
+                                                <div class="circle_text text-white smalltext">Segundos</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="upsell-button">
+                                    <div class="main-button mt-5 text-center">
+                                        <a href="#form" class="btn d-inline-flex flex-column position-relative"> 
+                                            <span class="btnmain text-uppercase font-weight-bold title">
+                                                ¡SÍ! QUIERO APROVECHAR ESTA OFERTA AHORA
+                                            </span>
+                                            <span class="btnsub text-capitalize font-weight-regular sub-title">
+                                                (¡Date prisa! El tiempo se agota)
+                                            </span> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <div class="bottom-content text-center" style="position: relative; z-index: 10;">
+                            <!-- Imagen para escritorio -->
+                            <img src="assets/images/portada.png" alt="Imagen de portada" class="img-fluid d-none d-md-block">
+                            <!-- Imagen para móvil -->
+                            <img src="assets/images/movil.png" alt="Imagen de portada móvil" class="img-fluid d-block d-md-none">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 col-md-11 mx-auto">
+                        <div class="hero-content">
+                            <p class="text-center">
+                                ¿Te imaginas tener una presencia en redes que realmente destaque? Sabemos que como agente inmobiliario, tu imagen en <span>Instagram</span> y <span>Facebook</span> puede marcar la diferencia entre captar nuevos clientes o pasar desapercibido. Con nuestras plantillas, podrás crear un perfil visual atractivo y profesional sin complicaciones. 
+                            </p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!--\\ Hero Section //-->
+        <!-- Sección About -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <div class="section-head">
+                            <!-- SubEncabezado -->
+                            <h3><span>LA MEJOR AGENCIA PARA TUS NECESIDADES DE DISEÑO</span></h3>
+                            <h2>Transforma tu Imagen con <span>Plantillas Profesionales</span></h2>
+                            <p>Hemos creado estas plantillas especialmente para agentes inmobiliarios, ayudándote a resaltar en redes sociales con una imagen más profesional y llamativa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="block">
+                            <img src="assets/images/block-1.png" alt="about-img">
+                            <h4>Fácil de Editar</h4>
+                            <p>Accede a tus plantillas con un solo clic en Canva. Personaliza los textos, colores y fotos para adaptarlos a tu estilo, sin necesidad de experiencia en diseño.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="block">
+                            <img src="assets/images/block-2.png" alt="about-img">
+                            <h4>Soporte Personalizado</h4>
+                            <p>¿Necesitas ayuda? Nuestro equipo está aquí para guiarte o incluso crear los posts por ti si no tienes cuenta en Canva. También trabajamos con <span>IA</span> para lograr un diseño óptimo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="block">
+                            <img src="assets/images/block-3.png" alt="about-img">
+                            <h4>Resultados Profesionales</h4>
+                            <p>Con nuestras plantillas, destaca tu perfil en redes sociales y atrae la atención de nuevos clientes con un estilo profesional y atractivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-0 mt-md-4 mt-lg-5">
+                    <div class="col-12 col-md-11 mx-auto">
+                        <div class="about-bottom">
+                            <p><span class="red-text">Mejora tu imagen sin complicaciones.</span> Recibe las plantillas directamente en tu email, ingresa a Canva, y empieza a editarlas con facilidad. Si buscas resultados aún más personalizados, nuestro equipo en CXPro está listo para ayudarte.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección About -->
+
+       <!-- Sección Sobre los Templates -->
+        <section class="about-us" id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Figura -->
+                        <figure class="us-img mt-4">
+                            <img src="assets/images/img2.png" alt="imagen-sobre-los-templates">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="us-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="section-head">
+                                        <!-- SubEncabezado -->
+                                        <h3 class="text-uppercase"><span>Descubre el Potencial de Nuestras Plantillas</span></h3>
+                                        <h2>Potencia tu presencia en redes con <span class="blc">diseños que destacan</span></h2>
+                                        <p><span>Nuestras plantillas editables</span> están diseñadas para atraer la atención de tus clientes en redes sociales. Estas plantillas son totalmente personalizables en Canva, permitiéndote adaptar <strong>textos, colores, imágenes</strong> y mucho más, para que reflejen tu estilo único y profesional.</p>
+                                        <p>Ya sea que necesites <strong>posts de Instagram</strong>, <strong>historias llamativas</strong> o contenido adaptable para <strong>anuncios y promociones</strong>, estas plantillas te ofrecen la flexibilidad que necesitas para crear contenido que resuene con tu audiencia y proyecte una imagen moderna y profesional.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Sobre los Templates -->
+
+        <!-- Sección de Servicios -->
+        <section class="features" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-9 mx-auto">
+                        <div class="section-head">
+                            <!-- SubEncabezado -->
+                            <h3 class="text-uppercase"><span>Te ofrecemos lo mejor para hacer crecer tu marca</span></h3>
+                            <h2>Somos CXPro, una agencia de <span class="blc">diseño de alto nivel</span> enfocada en potenciar <span class="under text-dark">marcas de calidad</span></h2>
+                            <p>En CXPro, combinamos creatividad y estrategia para llevar tu imagen a otro nivel. Nuestro equipo está comprometido a darte soluciones efectivas, desde el diseño visual hasta el desarrollo de estrategias de crecimiento que destaquen en el mercado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row feaure-block mt-md-4">
+                    <div class="col-md-4">
+                        <div class="feat mt-2">
+                            <img src="assets/images/feature-1.jpg" alt="imagen-caracteristica">
+                            <h5>Diseño Web</h5>
+                            <p>Creamos sitios web que capturan la esencia de tu marca y ofrecen una experiencia atractiva y funcional para tus visitantes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feat">
+                            <img src="assets/images/feature-2.jpg" alt="imagen-caracteristica">
+                            <h5>Diseño Gráfico</h5>
+                            <p>Desarrollamos gráficos únicos que reflejan la personalidad de tu negocio, adaptándolos a tus necesidades y al gusto de tu audiencia.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feat">
+                            <img src="assets/images/feature-2.png" alt="imagen-caracteristica">
+                            <h5>Prototipado</h5>
+                            <p>Con nuestra experiencia en prototipado, damos vida a tus ideas, creando modelos visuales que transforman conceptos en realidades tangibles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="upsell-button">
+                    <div class="main-button mt-5 text-center">
+                        <a href="#form" class="btn d-inline-flex flex-column position-relative">
+                            <span class="btnmain text-uppercase font-weight-bold title">¡SÍ! QUIERO APROVECHAR ESTA OFERTA</span>
+                            <span class="btnsub text-capitalize font-weight-regular sub-title">(¡No dejes que el tiempo se agote!)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Video -->
+        <section class="video-section" id="video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8 mx-auto">
+                        <div class="video-content text-center">
+                           
+                            <!-- SubEncabezado -->
+                            <h2 class="text-white text-uppercase">Transforma tu Imagen en Redes</h2>
+                            <p class="text-white">Descubre cómo una estrategia visual bien ejecutada puede marcar la diferencia en tu perfil profesional y observa el potencial de nuestras plantillas y cómo pueden ayudarte a captar la atención de tus futuros clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Video -->
+
+
+        <!-- Sección de Testimonios -->
+        <section class="experts" id="expert">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <div class="section-head">
+                            <!-- SubEncabezado -->
+                            <h3 class="text-uppercase"><span>Confiado por Profesionales</span></h3>
+                            <h2 class="text-uppercase">Lo que nuestros clientes <span>OPINAN</span></h2>
+                            <p>Estos comentarios reflejan cómo nuestras plantillas y recursos han ayudado a agentes inmobiliarios a proyectar una imagen profesional y atractiva en redes sociales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experts-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="experts-content log-1 mb-3 mb-md-0">
+                                    <h5>"Una Transformación Total"</h5>
+                                    <p>"Antes de usar estas plantillas, mis publicaciones no llamaban la atención y mi marca pasaba desapercibida. Ahora, cada post que publico tiene un diseño atractivo y profesional que realmente conecta con mis clientes."</p>
+                                    <p>"Fue increíble ver el cambio: solo unos ajustes en Canva y el perfil de mi negocio pasó de verse amateur a tener un aspecto pulido y confiable."</p>
+                                    <div class="image-logo d-flex align-items-center">
+                                        <img src="assets/images/expert-1.png" alt="experts-img" class="mr-3">
+                                        <div>
+                                            <h4 class="mb-0">Carlos Mendoza</h4>
+                                            <p class="mb-1">Agente Inmobiliario</p>
+                                            <div class="stars">
+                                                <i class="fab fa-google mr-1" style="color: #4285F4;"></i>
+                                                <span>★★★★★</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="experts-content log-2">
+                                    <h5>"Resultados que Atraen Clientes"</h5>
+                                    <p>"Con estas plantillas, pude crear anuncios y publicaciones que muestran mis propiedades de manera profesional. La diferencia ha sido notable, tanto en la interacción con mis seguidores como en la cantidad de clientes potenciales que me contactan."</p>
+                                    <div class="image-logo d-flex align-items-center">
+                                        <img src="assets/images/expert-2.png" alt="experts-img" class="mr-3">
+                                        <div>
+                                            <h4 class="mb-0">Ana López</h4>
+                                            <p class="mb-1">Agente de Bienes Raíces</p>
+                                            <div class="stars">
+                                                <i class="fab fa-google mr-1" style="color: #4285F4;"></i>
+                                                <span>★★★★★</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="experts-content log-3">
+                                    <h5>"Fácil y Profesional"</h5>
+                                    <p>"Nunca pensé que podría tener una presencia visual tan profesional sin contratar a un diseñador. Las plantillas son tan fáciles de usar que, en minutos, puedo adaptar cada una a mis necesidades y destacarme en redes."</p>
+                                    <div class="image-logo d-flex align-items-center">
+                                        <img src="assets/images/expert-3.png" alt="experts-img" class="mr-3">
+                                        <div>
+                                            <h4 class="mb-0">Laura Sánchez</h4>
+                                            <p class="mb-1">Asesora Inmobiliaria</p>
+                                            <div class="stars">
+                                                <i class="fab fa-google mr-1" style="color: #4285F4;"></i>
+                                                <span>★★★★★</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Testimonios -->
+
+        <!-- Sección de Reseñas -->
+        <section class="review" id="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 mx-auto">
+                        <div class="section-head">
+                            <!-- SubEncabezado -->
+                            <h3 class="text-uppercase"><span>Algunas de nuestras marcas asociadas</span></h3>
+                            <h2 class="text-uppercase"><span>CONFIANZA</span> de clientes a nivel mundial</h2>
+                            <p>Trabajamos con las mejores tecnologías y herramientas de diseño para ofrecerte soluciones de alta calidad y confianza.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-logos">
+                    <div class="row">
+                        <!-- Logo 1 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/1.png" alt="Marca 1" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 2 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/2.png" alt="Marca 2" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 3 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/3.png" alt="Marca 3" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 4 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/4.png" alt="Marca 4" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 5 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/5.png" alt="Marca 5" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 6 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/6.png" alt="Marca 6" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 7 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/7.png" alt="Marca 7" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                        <!-- Logo 8 -->
+                        <div class="col-md-3 col-6 mb-4 text-center">
+                            <div class="review-parent">
+                                <figure><img src="assets/images/8.png" alt="Marca 8" class="brand-logo"></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Reseñas -->
+
+
+
+        <!-- Sección de Preguntas Frecuentes -->
+        <section class="feature-questions" id="questions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <div class="section-head">
+                            <!-- SubEncabezado -->
+                            <h3 class="text-uppercase"><span>¿AÚN TIENES DUDAS?</span></h3>
+                            <h2 class="text-uppercase">¿ALGUNA <span>PREGUNTA?</span></h2>
+                            <p>Resolvemos algunas de las preguntas más comunes que pueden surgir al comenzar a usar nuestras plantillas y servicios para agentes inmobiliarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="questions-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>¿Qué necesito para usar las plantillas en Canva?</h5>
+                            <p>Solo necesitas una cuenta gratuita de Canva. Una vez descargues las plantillas, simplemente haz clic en el enlace y podrás personalizar los diseños con tus fotos, colores y textos.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>¿Puedo usar las plantillas en otras redes sociales además de Instagram?</h5>
+                            <p>Sí, nuestras plantillas están diseñadas para ser versátiles. Aunque son ideales para Instagram, puedes adaptarlas a Facebook, LinkedIn o cualquier plataforma de tu preferencia.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>¿Qué pasa si no tengo experiencia en diseño?</h5>
+                            <p>No te preocupes. Las plantillas son muy fáciles de usar, y si necesitas ayuda adicional, nuestro equipo está disponible para asistirte y adaptar los diseños según tus necesidades.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>¿Puedo cambiar los colores y el contenido de las plantillas?</h5>
+                            <p>Claro, las plantillas son totalmente personalizables. Puedes cambiar los colores, textos e imágenes para que reflejen la identidad de tu marca y estilo profesional.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>¿Cómo me ayudan estas plantillas a captar más clientes?</h5>
+                            <p>Una imagen profesional en redes sociales aumenta tu credibilidad y visibilidad. Las plantillas están diseñadas para destacar tu contenido y hacer que tus publicaciones sean más atractivas para clientes potenciales.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>¿Qué otros servicios ofrecen para agentes inmobiliarios?</h5>
+                            <p>Además de plantillas, ofrecemos diseño web, estrategias de marketing, gestión de redes sociales y contenido personalizado para que puedas potenciar tu presencia digital de manera integral.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Preguntas Frecuentes -->
+
+        <!-- Sección de Formulario Inferior -->
+        <section class="bottom-form" id="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 mx-auto">
+                        <div class="image-container text-center mb-4">
+                            <!-- Contenedor para Imagen -->
+                            <img src="assets/images/footer.png" alt="imagen-descarga" class="img-fluid">
+                        </div>
+                        <div class="input-area">
+                            <!-- Formulario de Descarga -->
+                            <form method="post" action="guardar_correo.php" name="offer-form" id="offer-form" novalidate class="text-center">
+                                <div class="form-group">
+                                    <input type="email" class="form-control email-input mx-auto" name="email" placeholder="Introduce tu correo electrónico..." required aria-invalid="true">
+                                </div>
+                                <div class="main-button mt-3 text-center">
+                                    <button type="submit" class="btn d-inline-flex flex-column position-relative download-btn">
+                                        <span class="btnmain font-weight-bold title text-uppercase">¡Descargar Ahora!</span>
+                                        <span class="btnsub text-capitalize font-weight-regular sub-title">(Es Gratis)</span>
+                                    </button>
+                                </div>
+                            </form>
+                            <!-- Fin del Formulario -->
+                            <div id="message" class="mt-3 text-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-11 mx-auto text-center">
+                    <div class="logo mx-auto mb-4">
+                        <img src="assets/images/CxPRO.png" alt="CxPRO Agency">
+                    </div>
+                    <div class="footer_content">
+                        <p>Gracias por confiar en nuestras plantillas profesionales para agentes inmobiliarios. Nuestro objetivo es ayudarte a proyectar una imagen impactante y profesional en redes sociales. Explora más recursos y servicios diseñados para potenciar tu marca y atraer clientes.</p>
+                        
+                        <ul class="list-inline">
+                            <li><a href="privacy-policy.html">Política de Privacidad</a></li>
+                            <li><a href="terms-and-conditions.html">Términos y Condiciones</a></li>
+                        
+                        </ul>
+
+                        <!-- Copyright Text -->
+                        <p class="bottom mb-0">© <span id="copy_rightYears"></span> CxPRO.com - Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Back To Top -->
+    <div class="backtotop"></div>
+    <!-- End Back To Top -->
+
+
+    <script>
+        // Manejo del formulario con JavaScript para evitar redirecciones
+        document.getElementById("offer-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+        
+            // Obtener el correo electrónico
+            const emailInput = document.querySelector("input[name='email']");
+            const email = emailInput.value;
+            const messageDiv = document.getElementById("message");
+        
+            // Configurar la petición para enviar los datos a guardar_correo.php
+            fetch("guardar_correo.php", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: `email=${encodeURIComponent(email)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Mostrar el mensaje en el div "message"
+                messageDiv.innerHTML = data.message;
+        
+                // Redirigir a la página de gracias si el estado es "success"
+                if (data.status === "success") {
+                    setTimeout(() => {
+                        window.location.href = "gracias.html";
+                    }, 3000); // Esperar 3 segundos antes de redirigir
+                }
+            })
+            .catch(error => {
+                messageDiv.innerHTML = "Ocurrió un error, intenta nuevamente.";
+            });
+        });
+    </script>
+    
+    <!-- JQuery JS -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- jQuery validate js -->
+    <script src="assets/plugins/validate/validate.min.js"></script>
+    <!-- Countdown Timer Library JS -->
+    <script src="assets/plugins/countdown/countdown.min.js"></script>
+    <!-- Countdown Timer Custom JS -->
+    <script src="assets/plugins/countdown/countdown_timer.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/custom.js"></script>
+    <!-- Product Display Section - JS -->
+    <script src="../common/js/custom.js"></script>
+
+</body>
+
+</html>
